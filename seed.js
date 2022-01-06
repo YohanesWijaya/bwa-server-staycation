@@ -41,7 +41,7 @@ var data = [
     'documents': [
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc901111'),
-        name: 'Houses with beauty backyard',
+        name: 'Houses with amazing backyard',
         itemId: [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902222') },
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902223') },
@@ -76,50 +76,50 @@ var data = [
   {
     'model': 'Item',
     'documents': [
-      // Golden Stone
+      // Spring Lake
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902222'),
-        title: 'Golden Stone',
-        price: 12,
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902230'),
+        title: 'Spring Lake',
+        price: 20,
         sumBooking: 1,
         country: 'Indonesia',
-        city: 'Jakarta',
+        city: 'Bogor',
         isPopular: false,
         description: 'Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.',
         unit: 'night',
         imageId: [
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb1') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd25') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb2') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd26') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb3') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd27') }
         ],
         featureId: [
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa09') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa10') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa11') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa12') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa13') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa14') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa15') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa16') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
         ],
         activityId: [
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb05') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb06') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb07') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb08') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
         ],
-        categoryId: '5e96cbe292b97300fc901113'
+        categoryId: '5e96cbe292b97300fc901111'
       },
       // Castle
       {
@@ -444,50 +444,50 @@ var data = [
         categoryId: '5e96cbe292b97300fc901112'
       },
 
-      // Spring Lake
+      // Golden Stone
       {
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902230'),
-        title: 'Spring Lake',
-        price: 20,
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902222'),
+        title: 'Golden Stone',
+        price: 12,
         sumBooking: 9,
         country: 'Indonesia',
-        city: 'Bogor',
+        city: 'Jakarta',
         isPopular: false,
         description: 'Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.',
         unit: 'night',
         imageId: [
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd25') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb1') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd26') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb2') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd27') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb3') }
         ],
         featureId: [
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa09') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa10') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa11') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa12') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa13') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa14') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa15') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa16') }
         ],
         activityId: [
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb05') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb06') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb07') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb08') }
         ],
-        categoryId: '5e96cbe292b97300fc901111'
+        categoryId: '5e96cbe292b97300fc901113'
       },
 
       // Minimal
@@ -495,7 +495,7 @@ var data = [
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902231'),
         title: 'Minimal',
         price: 20,
-        sumBooking: 11,
+        sumBooking: 10,
         country: 'Indonesia',
         city: 'Tangerang',
         isPopular: false,
@@ -541,7 +541,7 @@ var data = [
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902232'),
         title: 'Wooden leaf',
         price: 20,
-        sumBooking: 13,
+        sumBooking: 11,
         country: 'Indonesia',
         city: 'Bogor',
         isPopular: false,
@@ -587,7 +587,7 @@ var data = [
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902233'),
         title: 'Simple',
         price: 20,
-        sumBooking: 14,
+        sumBooking: 12,
         country: 'Indonesia',
         city: 'Jakarta',
         isPopular: false,
