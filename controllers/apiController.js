@@ -1,6 +1,6 @@
 const Item = require('../models/Item');
 const Treasure = require('../models/Activity');
-const Traveler = require('../models/Booking');
+const Treveler = require('../models/Booking');
 const Category = require('../models/Category');
 const Bank = require('../models/Bank');
 const Booking = require('../models/Booking');
@@ -21,7 +21,7 @@ module.exports = {
           path: 'itemId',
           select: '_id title country city isPopular  imageId',
           perDocumentLimit: 4,
-          option: { sort: { sumBooking: -1 } },
+          options: { sort: { sumBooking: -1 } },
           populate: {
             path: 'imageId',
             select: '_id imageUrl',
@@ -29,7 +29,7 @@ module.exports = {
           }
         })
 
-      const traveler = await Traveler.find();
+      const treveler = await Treveler.find();
       const treasure = await Treasure.find();
       const city = await Item.find();
 
@@ -47,17 +47,17 @@ module.exports = {
 
       const testimonial = {
         _id: "asd1293uasdads1",
-        imageUrl: "images/testimonial-landingpages.jpg",
+        imageUrl: "images/testimonial2.jpg",
         name: "Happy Family",
-        rate: 4.65,
+        rate: 4.55,
         content: "What a great trip with my family and I should try again next time soon ...",
-        familyName: "Eluzai Vito",
-        familyOccupation: "UI/UX Designer"
+        familyName: "Angga",
+        familyOccupation: "Product Designer"
       }
 
       res.status(200).json({
         hero: {
-          travelers: traveler.length,
+          travelers: treveler.length,
           treasures: treasure.length,
           cities: city.length
         },
@@ -83,12 +83,12 @@ module.exports = {
 
       const testimonial = {
         _id: "asd1293uasdads1",
-        imageUrl: "images/testimonial-landingpages.jpg",
+        imageUrl: "images/testimonial1.jpg",
         name: "Happy Family",
-        rate: 4.65,
+        rate: 4.55,
         content: "What a great trip with my family and I should try again next time soon ...",
-        familyName: "Eluzai Vito",
-        familyOccupation: "UI/UX Designer"
+        familyName: "Angga",
+        familyOccupation: "Product Designer"
       }
 
       res.status(200).json({
@@ -183,6 +183,5 @@ module.exports = {
     const booking = await Booking.create(newBooking);
 
     res.status(201).json({ message: "Success Booking", booking });
-    
   }
 }
